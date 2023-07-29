@@ -1,0 +1,60 @@
+/* Counseling.css */
+.bodypage {
+    min-height: 100vh;
+    background-image: url('/src/assets/images/counselingpage.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: hsla(0, 0%, 0%, 0.454);
+    background-blend-mode: multiply;
+    
+  }
+  .Counseling > .container{
+    height: 100%;
+    flex: 1;
+    width: 100%;
+}
+.Counseling-title{
+    font-size: 48px;
+    line-height: 1.4;
+    margin-top: 15.8rem;
+    max-width: 600px;
+}
+.Counseling .btn-groups{
+    margin-top: 4.8rem;
+}
+.Counseling .btn-groups .btn-item{
+    font-size: 0.6rem;
+    padding: 1.4rem 2rem;
+}
+.Counseling .btn-groups .btn-item:first-child{
+    border-color: var(--brown-color);
+}
+.Counseling .btn-groups .btn-item:last-child{
+    border-color: var(--dark-color);
+}
+.start-box{
+    background-color: rgb(246, 132, 132);
+    padding: 10px;
+}
+.start-box:hover{
+    background-color: rgba(24, 10, 10, 0.322);
+    padding: 10px;
+}
+
+@media screen and (min-width: 768px){
+    .Counseling-title{
+        font-size: 40px;
+    }
+    .Counseling .btn-groups .btn-item{
+        font-size: 2.2rem;
+        padding: 1.4rem 3.4rem;
+    }
+}
+
+
+@media screen and (min-width: 992px){
+    .Counseling-title{
+        font-size: 48px;
+    }
+}

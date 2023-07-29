@@ -1,0 +1,51 @@
+.Aboutbodypage {
+    min-height: 100vh;
+    background-image: url('/src/assets/images/header_background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: hsla(0, 0%, 0%, 0.569);
+    background-blend-mode: multiply;
+    
+  }
+
+  .header > .container{
+    height: 100%;
+    flex: 1;
+    width: 100%;
+}
+.Aboutbodypage-title{
+    font-size: 28px;
+    line-height: 1.4;
+    margin-top: 10.8rem;
+    max-width: 600px;
+}
+.Aboutbodypage .btn-groups{
+    margin-top: 40.8rem;
+}
+.Aboutbodypage .btn-groups .btn-item{
+    font-size: 0.6rem;
+    padding: 1.4rem 2rem;
+}
+.Aboutbodypage .btn-groups .btn-item:first-child{
+    border-color: var(--brown-color);
+}
+.Aboutbodypage .btn-groups .btn-item:last-child{
+    border-color: var(--dark-color);
+}
+
+@media screen and (min-width: 768px){
+    .Aboutbodypage-title{
+        font-size: 40px;
+    }
+    .Aboutbodypage .btn-groups .btn-item{
+        font-size: 2.2rem;
+        padding: 1.4rem 3.4rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .Aboutbodypage-title{
+        font-size: 48px;
+    }
+}
